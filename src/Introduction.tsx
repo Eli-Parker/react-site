@@ -39,8 +39,11 @@ export default function Introduction()
 
     // Return component
     return (
-        <div className='container flex h-screen items-center justify-center'>
-        <div className='text-center'>
+        <span className='container flex h-screen items-center justify-center text-center'>
+        <span className='text-center'>
+
+            {/* Front page Image */}
+            <img src="/siteLogo.svg" className="mx-auto mb-8 h-48" alt="Site Logo" />
 
             {/* Title and Type animation */}
             <div style={{ fontSize: '2em' }}>
@@ -55,7 +58,7 @@ export default function Introduction()
                 </h2>
             </div>
 
-            <hr className='m-8' />    
+            <hr className='m-8' />
 
                 {/* Social Media Links */}
                 <Button.Group>
@@ -72,7 +75,7 @@ export default function Introduction()
                         Email
                     </Button>
                 </Button.Group>
-            </div>
-            </div>
+            </span>
+            </span>
     )
 }
