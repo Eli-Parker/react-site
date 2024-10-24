@@ -1,5 +1,5 @@
 import { Key } from 'react';
-import projects from '../public/projects.json';
+import projects from './Data/projects.json';
 import { Card } from 'flowbite-react';
 
 
@@ -14,6 +14,8 @@ function Projects()
 
     return (
     <main className=' flex h-auto items-center justify-center p-5 '>
+        
+    {/* Rounded box around elements. */}
     <div className='rounded-lg bg-slate-700 p-10 text-center shadow-md'>
 
         {/* Title */}

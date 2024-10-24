@@ -5,6 +5,8 @@ import { IoLogoGithub, IoLogoLinkedin, IoMail } from "react-icons/io5";
 /**
  * Contains the introduction, including my name,
  * title, and a slick animation with changing text!
+ * 
+ * @returns the introduction component
  */
 export default function Introduction()
 {

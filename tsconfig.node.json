@@ -1,5 +1,6 @@
 {
   "compilerOptions": {
+    "typeRoots": ["./src/types"],
     "composite": true,
     "skipLibCheck": true,
     "module": "ESNext",
