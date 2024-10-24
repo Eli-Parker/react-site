@@ -57,7 +57,7 @@ export default function Introduction()
         <div className='text-center'>
 
             {/* Title and Type animation */}
-            <div className="text-4xl">
+            <div className="text-4xl font-bold">
                 <h2 className="dark:text-slate-50">Eli Parker is
                     <TypeAnimation
                         sequence={titles}

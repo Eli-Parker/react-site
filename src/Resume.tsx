@@ -1,4 +1,3 @@
-import 'react-pdf/dist/esm/Page/AnnotationLayer.css';
 
 export default function Resume()
 {
