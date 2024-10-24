@@ -1,0 +1,32 @@
+{
+    "projects": [
+        {
+            "name": "University Calendar Generator",
+            "siteReference": "http://eliparker.dev/UniversityOfUtahCalendarGenerator",
+            "description": "Scrapes the University of Utah's academic calendar website and dynamically generates an iCal file, based on user selection.",
+            "github": "https://github.com/Eli-Parker/UniversityOfUtahCalendarGenerator",
+            "id": 1
+        },
+        {
+            "name": "Text Generation Algorithm",
+            "siteReference": "",
+            "description": "Java program that dynamically generates text based on a given input text. Based on Markov Chains.",
+            "github": "https://github.com/Eli-Parker/Text-Generation-Algorithm",
+            "id": 2
+        },
+        {
+            "name": "Galaxy Generator",
+            "siteReference": "http://eliparker.dev/Galaxy-Generator",
+            "description": "Three-js project that uses particles and complex math to generate an interactive galaxy.",
+            "github": "https://github.com/Eli-Parker/Galaxy-Generator",
+            "id": 3
+        },
+        {
+            "name": "EliParker.dev",
+            "siteReference": "http://eliparker.dev/",
+            "description": "3-D portfolio website that showcases my projects and skills.",
+            "github": "https://github.com/Eli-Parker/",
+            "id": 4
+        }
+    ]
+}

@@ -13,7 +13,7 @@ export default function Introduction()
 
     // Titles for the type animation
     const titles = [
-        ' a Skilled Developer',
+        ' a Developer',
         2000,
         ' a Fast Learner',
         2000,
@@ -21,33 +21,42 @@ export default function Introduction()
         2000,
         ' a Software Engineer',
         2000,
-        ' Creative',
-        2000,
-        ' a Thinker',
-        2000,
         ' A C# Developer',
         2000,
         ' Sociable',
         2000,
-        ' Capable',
-        2000,
-        ' Learning React',
-        2000,
         ' Adept',
+        2000,
+        ' a Problem Solver',
+        2000,
+        ' a Programmer',
+        2000,
+        ' a Web Developer',
+        2000,
+        ' a Software Developer',
+        2000,
+        ' a Game Developer',
+        2000,
+        ' a Full Stack Developer',
+        2000,
+        ' a Battery Builder',
+        2000,
+        ' a Front End Developer',
+        2000,
+        ' a Back End Developer',
+        2000,
+        ' a UI/UX Designer',
         2000,
     ]
 
     // Return component
     return (
-        <span className='container flex h-screen items-center justify-center text-center'>
-        <span className='text-center'>
-
-            {/* Front page Image */}
-            <img src="/siteLogo.svg" className="mx-auto mb-8 h-48" alt="Site Logo" />
+        <div className='flex h-[80vh] w-full items-center justify-center text-center'>
+        <div className='text-center'>
 
             {/* Title and Type animation */}
-            <div style={{ fontSize: '2em' }}>
-                <h2 className='dark: text-slate-50'>Eli Parker is
+            <div className="text-4xl">
+                <h2 className="dark:text-slate-50">Eli Parker is
                     <TypeAnimation
                         sequence={titles}
                         wrapper="span"
@@ -75,7 +84,7 @@ export default function Introduction()
                         Email
                     </Button>
                 </Button.Group>
-            </span>
-            </span>
+        </div>
+        </div>
     )
 }
