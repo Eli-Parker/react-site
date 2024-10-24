@@ -7,7 +7,7 @@ import Projects from './Projects.tsx'
 */
 function App() {
 
-  return (<div className='w-full dark:bg-gray-800'>
+  return (<div className='w-screen dark:bg-gray-800'>
     {/* Nav Bar */}
     <Introduction />
 

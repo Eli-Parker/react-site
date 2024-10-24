@@ -24,7 +24,7 @@
         {
             "name": "EliParker.dev",
             "siteReference": "http://eliparker.dev/",
-            "description": "3-D portfolio website that showcases my projects and skills.",
+            "description": "3-D portfolio website that showcases my projects and skills. Uses React Three Fiber.",
             "github": "https://github.com/Eli-Parker/",
             "id": 4
         }

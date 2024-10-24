@@ -13,7 +13,7 @@ function Projects()
       
 
     return (
-    <main className=' flex h-auto items-center justify-center '>
+    <main className=' flex h-auto items-center justify-center p-5 '>
     <div className='rounded-lg bg-slate-700 p-10 text-center shadow-md'>
 
         {/* Title */}
