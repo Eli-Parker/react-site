@@ -1,3 +1,4 @@
+import AboutMe from './AboutMe.tsx'
 import Introduction from './Introduction.tsx'
 import Projects from './Projects.tsx'
 import Resume from './Resume.tsx'
@@ -18,6 +19,11 @@ function App() {
     <div className="m-20" />
 
     <Resume />
+    
+    {/* Divide sections */}
+    <div className="m-20" />
+
+    <AboutMe />
     
     </div>
   )
