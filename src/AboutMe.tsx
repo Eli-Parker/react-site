@@ -23,7 +23,7 @@ export default function AboutMe() {
         <Card
           className="max-w-md"
           imgAlt="An image of Eli Parker"
-          imgSrc="../src/Data/Portfolio-Image.JPEG"
+          imgSrc={`${import.meta.env.BASE_URL}Portfolio-Image.JPEG`}
           horizontal
         >
           <h5 className="mb-0 text-2xl font-bold tracking-tight text-slate-50 dark:text-slate-50">

@@ -1,5 +1,5 @@
 import { Key } from "react";
-import projects from "./Data/projects.json";
+import projects from "../public/projects.json";
 import { Button, Card } from "flowbite-react";
 
 /**

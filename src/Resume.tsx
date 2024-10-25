@@ -30,7 +30,7 @@ export default function Resume() {
 
         {/* Resume File */}
         <embed
-          src="./Data/resume.pdf"
+          src={`${import.meta.env.BASE_URL}resume.pdf`}
           width={isSmallScreen ? 400 : 600}
           height={isSmallScreen ? 400 : 600}
         />
