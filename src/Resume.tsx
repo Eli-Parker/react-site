@@ -29,8 +29,8 @@ export default function Resume() {
         <hr className="m-8" />
 
         {/* Resume File */}
-        <iframe
-          src="https://drive.google.com/file/d/1CiainGQ_i1Dsw0jk-a8s0qUreULugdIo/preview"
+        <embed
+          src="./Data/resume.pdf"
           width={isSmallScreen ? 400 : 600}
           height={isSmallScreen ? 400 : 600}
         />
