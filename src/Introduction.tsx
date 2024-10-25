@@ -36,6 +36,8 @@ export default function Introduction() {
     2000,
     " a Software Developer",
     2000,
+    " Organized",
+    2000,
     " a Full Stack Developer",
     2000,
     " a Battery Builder",
