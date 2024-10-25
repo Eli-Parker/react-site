@@ -13,7 +13,7 @@
     "lint:fix": "eslint . --fix",
     "typecheck": "tsc --noEmit",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d dist",
+    "deploy": "gh-pages -d docs",
     "clean": "rm -rf dist"
   },
   "dependencies": {
