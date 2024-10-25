@@ -33,6 +33,7 @@ export default function Resume() {
           src={`${import.meta.env.BASE_URL}resume.pdf`}
           width={isSmallScreen ? 400 : 600}
           height={isSmallScreen ? 400 : 600}
+          className='bg-white'
         />
       </div>
     </main>
