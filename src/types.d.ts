@@ -1,3 +1,3 @@
 declare module "*.pdf";
-declare module 'animated-backgrounds';
+declare module "animated-backgrounds";
 // Declare pdf file type
