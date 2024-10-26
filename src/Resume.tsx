@@ -6,7 +6,6 @@ export default function Resume() {
   useEffect(() => {
     const handleResize = () => {
       setIsSmallScreen(window.innerWidth < 700);
-      console.log("this method got called!");
     };
 
     window.addEventListener("resize", handleResize);
@@ -31,8 +30,8 @@ export default function Resume() {
         {/* Resume File */}
         <embed
           src={`${import.meta.env.BASE_URL}resume.pdf`}
-          width={isSmallScreen ? 400 : 600}
-          height={isSmallScreen ? 400 : 600}
+          width={isSmallScreen ? 320 : 600}
+          height={isSmallScreen ? 320 : 600}
           className='bg-white'
         />
       </div>
