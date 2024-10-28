@@ -23,6 +23,8 @@ function Projects() {
 
         {/* Projects Cards */}
         <div className="grid grid-cols-1 gap-6 sm:grid-cols-2 lg:grid-cols-2">
+
+        {/* Map on all the projects in the projects.json */}
           {projects.projects.map(
             (
               project: {
@@ -33,42 +35,54 @@ function Projects() {
               },
               index: Key,
             ) => (
-              <Card key={index} className="m-6 max-w-sm">
-                {/* Card title */}
-                <h5 className="text-2xl font-bold tracking-tight dark:text-slate-50">
-                  {project.name}
-                </h5>
+              <Card
+            key={index}
+            className={`m-6 max-w-sm ${
+                // If there's an odd number of projects, make the last card span 2 columns
+              projects.projects.length % 2 !== 0 && index === projects.projects.length - 1
+                ? "sm:col-span-2 sm:mx-auto"
+                : ""
+            }`}
+              >
+            {/* Card title */}
+            <h5 className="text-2xl font-bold tracking-tight dark:text-slate-50">
+              {project.name}
+            </h5>
 
-                {/* Card description */}
-                <p className="font-normal dark:text-slate-50">
-                  {project.description}
-                </p>
+            {/* Card description */}
+            <p className="font-normal dark:text-slate-50">
+              {project.description}
+            </p>
 
-                {/* Buttons */}
-                <div className="mt-4 flex justify-center space-x-3 lg:mt-6">
-                  {/* Site Reference (only display if there's a reference) */}
-                  {project.siteReference != "" && (
-                    <Button
-                      onMouseDown={(e: { button: number }) => {
-                        if (e.button === 0 || e.button === 1)
-                          window.open(project.siteReference);
+            {/* Buttons */}
+            <div className="mt-4 flex justify-center space-x-3 lg:mt-6">
+              {/* Site Reference (only display if there's a reference) */}
+              {project.siteReference != "" && (
+                <Button
+                  onMouseDown={(e: { button: number }) => {
+                if (e.button === 0 || e.button === 1)
+                  window.open(project.siteReference);
+                  }}
+                  outline
+                  gradientDuoTone="pinkToOrange"
+                >
+                  Go to Project
+                </Button>
+              )}
+
+              {/* Github (only display if there's a github) */}
+              {project.github != "" && (
+              <Button
+                onMouseDown={(e: { button: number }) => {
+                    if (e.button === 0 || e.button === 1)
+                      window.open(project.github);
                       }}
-                      outline
-                      gradientDuoTone="pinkToOrange"
-                    >
-                      Go to Project
-                    </Button>
-                  )}
-                  <Button
-                    href={project.github}
-                    className="
-                            focus:outline-none focus:ring-4 focus:ring-gray-200 dark:border-gray-600
-                          dark:bg-gray-800 dark:text-slate-50 dark:hover:border-gray-700 dark:hover:bg-gray-700
-                          dark:focus:ring-gray-700"
-                  >
-                    See on GitHub
-                  </Button>
-                </div>
+                outline
+              >
+                See on GitHub
+              </Button>
+              )}
+            </div>
               </Card>
             ),
           )}
