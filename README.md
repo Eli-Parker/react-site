@@ -2,15 +2,28 @@
 # React Site
 
 This project is a simple React website which houses my portfolio,
-and also serves as an introduction to web-development and React.
-It's no magnum opus but I'm a believer in starting somewhere.
+and also serves as a personal introduction to web-development and React.
+There's a lot to learn but it's a bold first
+step into the world of component-based web dev.
 
 ## Features
 
 - Component-based architecture
-- State management with hooks
 - Mobile and Desktop friendly
-- Basic styling with Tailwind CSS
+- Styling with Tailwind CSS
+- Fast refresh for instant feedback
+- Hosted using Github Pages
+
+## Technologies Used
+
+- React
+- Tailwind CSS
+- JavaScript (ES6+)
+- HTML5
+
+## Demo
+
+Check out the live project [here](http://eliparker.dev/react-site/).
 
 ## Installation
 
