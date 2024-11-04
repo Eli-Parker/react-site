@@ -1,5 +1,5 @@
 import { Key } from "react";
-import projects from "../public/projects.json";
+import projects from "./data/projects.json";
 import { Button, Card } from "flowbite-react";
 
 /**
@@ -51,7 +51,14 @@ function Projects() {
 
             {/* Card description */}
             <p className="font-normal dark:text-slate-50">
-              {project.description}
+
+                {/* Add a line break anywhere there's \n in the text */}
+                {project.description.split('\n').map((line, index) => (
+                <span key={index}>
+                  {line}
+                  <br />
+                </span>
+                ))}
             </p>
 
             {/* Buttons */}
