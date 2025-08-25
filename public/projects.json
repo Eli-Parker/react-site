@@ -1,39 +1,46 @@
 {
   "projects": [
     {
+      "name": "EliParker.dev",
+      "siteReference": "http://eliparker.dev/",
+      "description": "3-D portfolio website that showcases my projects and skills. Uses React Three Fiber and React Three Drei.",
+      "github": "https://github.com/Eli-Parker/eli-parker.github.io",
+      "id": 1
+    },
+    {
+      "name": "RideHermes.app",
+      "siteReference": "https://eliparker.dev/ride-hermes-samples/",
+      "description": "PEV focused ride tracking Application with 100k+ users. I do a lot of the frontend development and implement various features.",
+      "github": "",
+      "id": 2
+    },
+    {
       "name": "University Calendar Generator",
       "siteReference": "http://eliparker.dev/UniversityOfUtahCalendarGenerator",
       "description": "Scrapes the University of Utah's academic calendar website and dynamically generates an iCal file, based on user selection.",
       "github": "https://github.com/Eli-Parker/UniversityOfUtahCalendarGenerator",
-      "id": 1
+      "id": 3
     },
     {
       "name": "Text Generation Algorithm",
       "siteReference": "",
       "description": "Java program that dynamically generates text based on a given input text. Based on Markov Chains. (Code is available to employers upon request, but cannot be public.)",
       "github": "",
-      "id": 2
+      "id": 4
     },
     {
       "name": "Galaxy Generator",
       "siteReference": "http://eliparker.dev/Galaxy-Generator",
       "description": "Three-js project that uses particles and complex math to generate an interactive galaxy.",
       "github": "https://github.com/Eli-Parker/Galaxy-Generator",
-      "id": 3
-    },
-    {
-      "name": "EliParker.dev",
-      "siteReference": "http://eliparker.dev/",
-      "description": "3-D portfolio website that showcases my projects and skills. Uses React Three Fiber and React Three Drei.",
-      "github": "https://github.com/Eli-Parker/eli-parker.github.io",
-      "id": 4
+      "id": 5
     },
     {
       "name": "React Site",
       "siteReference": "http://eliparker.dev/react-site/",
-      "description": "This website! Built with React and hosted on GitHub Pages.",
+      "description": "A small portfolio website to get things started! Built with React and hosted on GitHub Pages.",
       "github": "https://github.com/Eli-Parker/react-site",
-      "id": 5
+      "id": 6
     }
   ]
 }

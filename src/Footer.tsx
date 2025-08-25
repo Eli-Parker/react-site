@@ -42,12 +42,12 @@ function Footer() {
               gradientDuoTone="pinkToOrange"
               onMouseDown={(e: { button: number }) => {
                 if (e.button === 0 || e.button === 1)
-                  window.open("mailto:EliParkDev@icloud.com");
+                  window.open("mailto:me@eliparker.dev");
               }}
               style={{ alignItems: "center", justifyContent: "center" }}
             >
               <IoMail className="m-1" />
-              EliParkDev@icloud.com
+              me@eliparker.dev
             </Button>
             <Button
               size="xl"

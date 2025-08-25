@@ -100,7 +100,7 @@ export default function Introduction() {
             color="gray"
             onMouseDown={(e: { button: number }) => {
               if (e.button === 0 || e.button === 1)
-                window.open("mailto:EliParkDev@icloud.com");
+                window.open("mailto:me@eliparker.dev");
             }}
             style={{ alignItems: "center", justifyContent: "center" }}
           >

@@ -1,45 +1,45 @@
 {
   "projects": [
     {
-      "name": "University Calendar Generator",
-      "siteReference": "http://eliparker.dev/UniversityOfUtahCalendarGenerator",
-      "description": "Scrapes the University of Utah's academic calendar website and dynamically generates an iCal file, based on user selection. Adheres to TDD and SOLID code principles.",
-      "github": "https://github.com/Eli-Parker/UniversityOfUtahCalendarGenerator",
+      "name": "EliParker.dev",
+      "siteReference": "http://eliparker.dev/",
+      "description": "3-D portfolio website that showcases my projects and skills. Uses React Three Fiber and React Three Drei.",
+      "github": "https://github.com/Eli-Parker/eli-parker.github.io",
       "id": 1
     },
     {
-      "name": "EliParker.dev",
-      "siteReference": "http://eliparker.dev/",
-      "description": "3-D portfolio website that showcases my projects and skills. Showcases skill in React Three Fiber and React Three Drei, as well as React best practices.",
-      "github": "https://github.com/Eli-Parker/eli-parker.github.io",
+      "name": "RideHermes.app",
+      "siteReference": "https://eliparker.dev/ride-hermes-samples/",
+      "description": "PEV focused ride tracking Application with 100k+ users. I do a lot of the frontend development and implement various features.",
+      "github": "",
       "id": 2
     },
     {
-      "name": "Galaxy Generator",
-      "siteReference": "http://eliparker.dev/Galaxy-Generator",
-      "description": "Three-js project that uses particles and visual algorithms to generate an interactive three-dimensional galaxy.",
-      "github": "https://github.com/Eli-Parker/Galaxy-Generator",
+      "name": "University Calendar Generator",
+      "siteReference": "http://eliparker.dev/UniversityOfUtahCalendarGenerator",
+      "description": "Scrapes the University of Utah's academic calendar website and dynamically generates an iCal file, based on user selection.",
+      "github": "https://github.com/Eli-Parker/UniversityOfUtahCalendarGenerator",
       "id": 3
     },
     {
       "name": "Text Generation Algorithm",
       "siteReference": "",
-      "description": "  Java program that dynamically generates text based on a given input text. Based on Markov Chains. \n (Code is available to employers upon request)",
+      "description": "Java program that dynamically generates text based on a given input text. Based on Markov Chains. (Code is available to employers upon request, but cannot be public.)",
       "github": "",
       "id": 4
     },
     {
-      "name": "React Site",
-      "siteReference": "http://eliparker.dev/react-site/",
-      "description": "This website! Built with React. Showcases understanding of modern web dev practices including component-based architecture, state management with hooks, and responsive design.",
-      "github": "https://github.com/Eli-Parker/react-site",
+      "name": "Galaxy Generator",
+      "siteReference": "http://eliparker.dev/Galaxy-Generator",
+      "description": "Three-js project that uses particles and complex math to generate an interactive galaxy.",
+      "github": "https://github.com/Eli-Parker/Galaxy-Generator",
       "id": 5
     },
     {
-      "name": "Spreadsheet",
-      "siteReference": "https://eliparker.dev/CS3500SpreadsheetGUI/",
-      "description": "Spreadsheet web app which works similar to Excel. Composed of robust and test-driven C# class libaries and an intuitive blazor GUI. Developed at the U of U with my partner! \n (Code is available to employers upon request)",
-      "github": "",
+      "name": "React Site",
+      "siteReference": "http://eliparker.dev/react-site/",
+      "description": "A small portfolio website to get things started! Built with React and hosted on GitHub Pages.",
+      "github": "https://github.com/Eli-Parker/react-site",
       "id": 6
     }
   ]
