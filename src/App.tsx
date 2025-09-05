@@ -9,7 +9,7 @@ import Resume from "./Resume.tsx";
  */
 function App() {
   return (<>
-    <div className="grid w-screen grid-cols-2 gap-4 bg-gray-800">
+    <div className="grid grid-cols-2 gap-4 bg-gray-800">
       <div className="sticky top-0 h-screen p-4">
         <WelcomePane />
       </div>
