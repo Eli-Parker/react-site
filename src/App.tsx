@@ -12,10 +12,19 @@ function App() {
     <div className="grid w-screen grid-cols-2 gap-4 bg-gray-800">
       <div className="sticky top-0 h-screen p-4">
         <WelcomePane />
-
       </div>
+      
       <div className="p-4">
+
         <div className="m-20" />
+
+        {/* Title */}
+        <h1 className="text-left text-3xl font-bold text-slate-50">
+          Who I Am
+        </h1>
+
+        {/* Divider */}
+        <hr className="my-4 w-1/4 text-left" />
         <p id="Introduction" className=" mb-8 max-w-xl text-lg text-gray-700 dark:text-gray-300">
           I’m a <strong>Frontend Developer</strong> who sees software as both logic and art, passionate about creating interfaces that feel as good as they look. My favorite work happens where design and development meet, building digital experiences that are <strong>intuitive</strong>, <strong>engaging</strong>, and <strong>built to perform at scale</strong>.
 
