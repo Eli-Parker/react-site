@@ -1,0 +1,35 @@
+{
+    "experience": [
+        {
+        "company": "Health Catalyst",
+        "position": "Analytics Engineer",
+        "startDate": "2023-06-02",
+        "endDate": "2024-01-02",
+        "responsibilities": [
+            "Became proficient in data science workflow and concepts quickly with no prior experience",
+            "Headed a team working on template/sales analytics dashboards",
+            "Accrued management experience, mentorship experience, and certifications/certificates"
+        ]
+        },
+        {
+        "company": "Cambi Solutions LLC",
+        "position": "Data Analyst",
+        "startDate": "2024-09-02",
+        "endDate": "2025-01-02",
+        "responsibilities": [
+            "Collected and curated data for an AI Algorithm",
+            "Worked closely with app development team on UI/UX improvements"
+        ]
+        },
+        {
+        "company": "Commercial Funding Partners",
+        "position": "Web Designer",
+        "startDate": "2025-08-02",
+        "endDate": "3005-01-02",
+        "responsibilities": [
+            "Develop, manage, and curate a host of equipment loaning websites",
+            "Generate Leads through Superior UI/UX, SEO, and social media engagement"
+        ]
+        }
+    ]
+}

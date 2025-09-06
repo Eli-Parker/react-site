@@ -10,7 +10,7 @@ import { IoLogoGithub } from "react-icons/io5";
  */
 function Projects() {
   return (
-    <main className="h-auto items-start justify-start ">
+    <main id="projects" className="h-auto items-start justify-start ">
         {/* Title */}
         <h1 className="text-left text-3xl font-bold text-slate-50">
           Projects

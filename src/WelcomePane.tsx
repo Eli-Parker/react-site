@@ -25,7 +25,7 @@ export default function WelcomePane() {
 
   // Return component
   return (
-    <div id="introduction" className="flex h-[80vh] w-full items-center justify-center text-center">
+    <div className="flex h-[80vh] w-full items-center justify-center text-center">
       <div className="justify-start text-left">
         {/* Title and Type animation */}
         <div className="flex" style={{ width: "45%" }} >
