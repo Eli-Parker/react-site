@@ -17,6 +17,14 @@
       "id": 2
     },
     {
+      "name": "Spreadsheet",
+      "siteReference": "https://eliparker.dev/CS3500SpreadsheetGUI/",
+      "description": "Full Stack spreadsheet application with a Blazor frontend and C# backend. Implements a custom formula language with support for recursion, cell references, and built-in formulas.",
+      "github": "",
+      "chiclets": ["C#", "Blazor", "UI/UX Design", "Fullstack Development"],
+      "id": 2
+    },
+    {
       "name": "University Calendar Generator",
       "siteReference": "http://eliparker.dev/UniversityOfUtahCalendarGenerator",
       "description": "Scrapes the University of Utah's academic calendar website and dynamically generates an iCal file, based on user selection.",
