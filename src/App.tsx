@@ -9,14 +9,14 @@ import Resume from "./Resume.tsx";
  */
 function App() {
   return (<>
-    <div className="grid grid-cols-2 gap-4 bg-gray-800">
-      <div className="sticky top-0 h-screen p-4">
-      <WelcomePane />
+    <div className="grid grid-cols-1 gap-4 bg-gray-800 md:grid-cols-2">
+      <div className="top-0 h-[75vh] p-4 md:sticky md:h-screen">
+        <WelcomePane />
       </div>
       
       <div className="p-4">
 
-      <div className="m-20" />
+      {/* <div className="m-0 md:m-20" /> */}
 
       <main id="whoami">
         {/* Title */}
