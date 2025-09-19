@@ -23,14 +23,14 @@ export default function WelcomePane() {
     4000,
   ];
 
-  // Return component
+
   return (
-    <div className="flex h-[80vh] w-full items-center justify-center text-center">
+    <div className="flex h-[60vh] w-full items-center md:h-[80vh] md:justify-center" >
       <div className="justify-start text-left">
         {/* Title and Type animation */}
         <div className="flex" style={{ width: "45%" }} >
           {/* Left column: Text (80%) */}
-          <div className="w-4/5 font-bold">
+          <div className="w-4/5 min-w-52 font-bold">
             <h2 className="text-4xl text-slate-50">
               Eli Parker
             </h2>
@@ -45,12 +45,12 @@ export default function WelcomePane() {
             </h4>
           </div>
           {/* Right column: SVG (20%) */}
-            <div className="flex w-1/5 items-end justify-end">
+            <div className="flex w-1/5 min-w-16 items-end justify-end">
               <img
               src="favicon.svg"
               alt="Logo"
-              width={80}
-              height={80}
+              width={64}
+              height={64}
               className="mb-1 mt-auto"
               />
             </div>
@@ -59,7 +59,7 @@ export default function WelcomePane() {
         <div className="m-4" />
 
         {/* Quick About me section */}
-        <div className=" mb-8 w-1/2 max-w-xl text-lg text-gray-700 dark:text-gray-300">
+        <div className="mb-8 w-1/2 min-w-72 max-w-xl text-lg text-gray-700 dark:text-gray-300">
           <p>
             I’m a frontend developer and CS student who turns big ideas into beautiful, high-performing digital experiences.
           </p>

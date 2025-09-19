@@ -143,9 +143,14 @@ export default function Resume() {
                 <div
                   onMouseEnter={() => setHoveredIdx(idx)}
                   onMouseLeave={() => {
-                  const currentIdx = idx;
                   setTimeout(() => {
-                    setHoveredIdx(prev => (prev === currentIdx ? null : prev));
+                    setHoveredIdx(prev => (prev === idx ? null : prev));
+                  }, 100);
+                  }}
+                  onTouchStart={() => setHoveredIdx(idx)}
+                  onTouchEnd={() => {
+                  setTimeout(() => {
+                    setHoveredIdx(prev => (prev === idx ? null : prev));
                   }, 100);
                   }}
                   className="group relative max-w-sm rounded-[8px] bg-gray-500 bg-opacity-0 pl-0 transition-all duration-300 hover:max-w-[calc(24rem+12px)] hover:bg-opacity-20 hover:px-2"
