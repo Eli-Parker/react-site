@@ -20,16 +20,16 @@ function App() {
       {/* Right Half */}
       <div className="p-4">
 
-        <div className="m-20" />
+  <div className="section-spacer" />
         <WhoAmI />
         
-        <div className="m-20" />
+  <div className="section-spacer" />
         <Projects />
 
-        <div className="m-20" />
+  <div className="section-spacer" />
         <Resume />
 
-        <div className="m-20" />
+  <div className="section-spacer" />
         <Footer />
 
       </div>

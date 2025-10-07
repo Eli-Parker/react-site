@@ -5,13 +5,13 @@
 export default function WhoAmI() {
   return <main id="whoami">
     {/* Title */}
-    <h1 className="text-left text-3xl font-bold text-slate-50">
+    <h1 className="section-title">
       Who I Am
     </h1>
 
     {/* Divider */}
-    <hr className="my-4 w-1/4 text-left" />
-    <p id="Introduction" className=" mb-8 max-w-xl text-lg text-gray-700 dark:text-gray-300">
+  <hr className="section-divider" />
+  <p id="Introduction" className="body-text mb-8 max-w-xl">
       I’m a <strong>Frontend Developer</strong> who sees software as both logic and art, passionate about creating interfaces that feel as good as they look. My favorite work happens where design and development meet, building digital experiences that are <strong>intuitive</strong>, <strong>engaging</strong>, and <strong>built to perform at scale</strong>.
 
       <br /><br />Currently, I’m a <strong>Web Designer at Commercial Funding Partners</strong>, where I design, manage, and optimize lending websites through thoughtful UI/UX, SEO strategy, and lead-generation tools. I'm also on an <strong>App Development team</strong> maintaining/building a Flutter app with a <strong>100k+ user base</strong>.

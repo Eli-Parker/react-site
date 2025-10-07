@@ -19,7 +19,7 @@ function Footer() {
           target="_blank"
           rel="noopener noreferrer"
           aria-label="GitHub"
-          className="text-3xl text-gray-500 transition-colors hover:text-sky-400"
+          className="icon-link"
         >
           <IoLogoGithub />
         </a>

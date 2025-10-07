@@ -72,9 +72,9 @@ export default function Resume() {
   return (
     <main id="resume" className="h-auto items-start justify-start">
       {/* Title */}
-      <h1 className="text-left text-3xl font-bold text-slate-50">Resume</h1>
+      <h1 className="section-title">Resume</h1>
       {/* Divider */}
-      <hr className="my-4 w-1/4 text-left" />
+      <hr className="section-divider" />
 
       {/* Div to house the 2 cols */}
       <div className="flex w-full items-stretch gap-8">
@@ -101,7 +101,7 @@ export default function Resume() {
               >
                 {/* Timeline Text */}
                 <span
-                  className="ml-2 w-[90%] transform self-center whitespace-nowrap rounded-full bg-sky-900/70 px-1 text-center text-xs font-semibold text-slate-100 shadow-sm transition-all duration-300 ease-in-out"
+                  className="timeline-pill transform"
                   style={{
                     ...((highlighted && (idx === expStartIdx || idx === expEndIdx))
                       ? { opacity: 1, transform: "translateX(-2px)" }
@@ -153,7 +153,7 @@ export default function Resume() {
                     setHoveredIdx(prev => (prev === idx ? null : prev));
                   }, 100);
                   }}
-                  className="group relative max-w-sm rounded-[8px] bg-gray-500 bg-opacity-0 pl-0 transition-all duration-300 hover:max-w-[calc(24rem+12px)] hover:bg-opacity-20 hover:px-2"
+                  className="interactive-card"
                 >
                   <div className="py-0.5" />
                   {/* Company */}
@@ -213,7 +213,7 @@ export default function Resume() {
         </div>
       </div>
       <p className="pt-3 font-medium dark:text-slate-300">
-        Want my full Resume? <br /> Get it <a className="font-bold transition-all duration-200 hover:text-sky-400 " href="./resume.pdf">here</a>
+        Want my full Resume? <br /> Get it <a className="link-accent" href="./resume.pdf">here</a>
       </p>
     </main>
   );

@@ -1,3 +1,77 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+/* =============================================
+	 Global Theme Variables & Reusable Components
+	 ============================================= */
+
+@layer base {
+	:root {
+		/* Core palette extracted from existing Tailwind usage */
+		--color-bg: #1f2937;              /* gray-800 */
+		--color-surface: rgba(107,114,128,0);      /* gray-500 @ 0% */
+		--color-surface-hover: rgba(107,114,128,0.20); /* gray-500 @ 20% */
+		--color-text-primary: #f8fafc;    /* slate-50 */
+		--color-text-secondary: #cbd5e1;  /* slate-300 */
+		--color-text-muted: #94a3b8;      /* slate-400 */
+		--color-text-inverse: #0f172a;    /* slate-900 */
+		--color-accent: #38bdf8;          /* sky-400 */
+		--color-accent-strong: #0c4a6e;   /* sky-900 */
+		--color-accent-soft: rgba(12,74,110,0.70); /* sky-900 @ 70% */
+		--color-border: #e5e7eb;          /* gray-200 */
+		--radius-sm: 4px;
+		--radius-md: 8px;
+		--transition-fast: 100ms;
+		--transition-normal: 300ms;
+	}
+	body {
+		background: var(--color-bg);
+		color: var(--color-text-primary);
+	}
+}
+
+@layer components {
+	/* Section heading (e.g., Projects, Resume, Who I Am) */
+	.section-title { @apply text-left text-3xl font-bold text-slate-50; }
+
+	/* Standard section divider */
+	.section-divider { @apply my-4 w-1/4 text-left; }
+
+	/* Large and small spacers to replace bare divs */
+	.section-spacer { @apply m-20; }
+	.spacer-sm { @apply m-4; }
+
+	/* Base body copy paragraph styling */
+	.body-text { @apply text-lg text-gray-700 dark:text-gray-300; }
+
+	/* Interactive expanding card used in Projects & Resume */
+    .interactive-card {
+        @apply relative max-w-sm rounded-[8px] pl-0 transition-all duration-300 hover:max-w-[calc(24rem+12px)] hover:px-2;
+        background: var(--color-surface);
+    }
+	.interactive-card:hover {
+		background: var(--color-surface-hover);
+	}
+
+	/* Technology / skill pills & timeline month markers */
+	.pill { 
+        @apply rounded-full px-3 py-1 text-xs font-semibold text-slate-100 shadow-sm;
+        background: var(--color-accent-soft);
+     }
+	.timeline-pill { 
+        @apply ml-2 w-[90%] self-center whitespace-nowrap rounded-full px-1 text-center text-xs font-semibold text-slate-100 shadow-sm transition-all duration-300 ease-in-out; 
+        background: var(--color-accent-soft); 
+    }
+
+	/* Icon links (social & GitHub) */
+	.icon-link { @apply text-3xl text-gray-500 transition-colors; }
+	.icon-link:hover { color: var(--color-accent); }
+
+	/* Link accent hover */
+	.link-accent { @apply font-bold transition-all duration-200; }
+	.link-accent:hover { color: var(--color-accent); }
+}
+
+/* Utility to visually hide but keep accessible (future use) */
+.sr-only { @apply absolute -m-px h-px w-px overflow-hidden whitespace-nowrap border-0 p-0; clip: rect(0 0 0 0); }

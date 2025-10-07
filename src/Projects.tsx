@@ -12,12 +12,12 @@ function Projects() {
   return (
     <main id="projects" className="h-auto items-start justify-start ">
         {/* Title */}
-        <h1 className="text-left text-3xl font-bold text-slate-50">
+        <h1 className="section-title">
           Projects
         </h1>
 
         {/* Divider */}
-        <hr className="mb-8 mt-4 w-1/4 text-left" />
+        <hr className="section-divider mb-8 mt-4" />
 
         {/* Map on all the projects in the projects.json */}
           {projects.projects.map(
@@ -34,7 +34,7 @@ function Projects() {
             <div
               key={index}
               // eslint-disable-next-line tailwindcss/no-custom-classname, tailwindcss/migration-from-tailwind-2
-              className="group relative my-6 max-w-sm cursor-pointer rounded-[8px] bg-gray-500 bg-opacity-0 pl-0 transition-all duration-300 hover:max-w-[calc(24rem+12px)] hover:bg-opacity-20 hover:px-2"
+              className="interactive-card my-6 cursor-pointer"
               onClick={() => {
               if (project.siteReference) {
                 window.open(project.siteReference, "_blank");
@@ -76,7 +76,7 @@ function Projects() {
                   project.chiclets.map((chiclet: string, i: number) => (
                     <span
                       key={i}
-                      className="rounded-full bg-sky-900/70 px-3 py-1 text-xs font-semibold text-slate-100 shadow-sm"
+                      className="pill"
                     >
                       {chiclet}
                     </span>
@@ -94,7 +94,7 @@ function Projects() {
                   target="_blank"
                   rel="noopener noreferrer"
                   aria-label="GitHub"
-                  className="text-3xl text-gray-500 transition-colors hover:text-sky-400"
+                  className="icon-link"
                 >
                   <IoLogoGithub />
                 </a>}

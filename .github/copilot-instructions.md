@@ -25,7 +25,7 @@ Concise, project-specific guidance so an AI can make safe, useful changes fast.
 -- Single theme only. Tailwind config lists `darkMode: "selector"` but no toggle is exposed; do not introduce light/dark switching unless requirements change.
 
 ## 4. Styling Conventions
-- Heavy use of Tailwind utility classes; minimal custom CSS (`src/index.css` only imports Tailwind layers). Maintain utility-first approach; avoid adding large bespoke CSS unless necessary.
+- Heavy use of Tailwind utility classes; minimal custom CSS (`src/index.css` only imports Tailwind layers). Maintain utility-first approach.
 - Animated hover expansions rely on `transition-all` + changed width/padding (e.g., project / resume cards). Preserve class combinations to keep smooth transitions.
 - Use semantic heading levels already present (`h1` section titles, `h5` card titles).
 

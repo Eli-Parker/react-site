@@ -8,8 +8,8 @@ import { IoLogoGithub, IoLogoLinkedin, IoMail } from "react-icons/io5";
  * @returns the introduction component
  */
 export default function WelcomePane() {
-  // Color for type text animation
-  const animTextColor = "#f8fafc";
+  // Color now supplied via global variable / inherited text color
+  const animTextColor = "var(--color-text-primary)";
 
   // Titles for the type animation
   const titles = [
@@ -28,9 +28,9 @@ export default function WelcomePane() {
     <div className="flex h-[60vh] w-full items-center md:h-[80vh] md:justify-center" >
       <div className="justify-start text-left">
         {/* Title and Type animation */}
-        <div className="flex" style={{ width: "45%" }} >
+        <div className="flex w-[45%] min-w-52" >
           {/* Left column: Text (80%) */}
-          <div className="w-4/5 min-w-52 font-bold">
+          <div className="w-4/5 font-bold">
             <h2 className="text-4xl text-slate-50">
               Eli Parker
             </h2>
@@ -56,10 +56,10 @@ export default function WelcomePane() {
             </div>
         </div>
 
-        <div className="m-4" />
+        <div className="spacer-sm" />
 
         {/* Quick About me section */}
-        <div className="mb-8 w-1/2 min-w-72 max-w-xl text-lg text-gray-700 dark:text-gray-300">
+  <div className="body-text mb-8 w-1/2 min-w-72 max-w-xl">
           <p>
             I’m a frontend developer and CS student who turns big ideas into beautiful, high-performing digital experiences.
           </p>
@@ -71,7 +71,7 @@ export default function WelcomePane() {
             target="_blank"
             rel="noopener noreferrer"
             aria-label="GitHub"
-            className="text-3xl text-gray-500 transition-colors hover:text-sky-400"
+            className="icon-link"
           >
             <IoLogoGithub />
           </a>
@@ -80,14 +80,14 @@ export default function WelcomePane() {
             target="_blank"
             rel="noopener noreferrer"
             aria-label="LinkedIn"
-            className="text-3xl text-gray-500 transition-colors hover:text-sky-400"
+            className="icon-link"
           >
             <IoLogoLinkedin />
           </a>
           <a
             href="mailto:me@eliparker.dev"
             aria-label="Email"
-            className="text-3xl text-gray-500 transition-colors hover:text-sky-400"
+            className="icon-link"
           >
             <IoMail />
           </a>
