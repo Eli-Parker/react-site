@@ -13,8 +13,8 @@
     "lint:fix": "eslint . --fix",
     "typecheck": "tsc --noEmit",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d dist",
-    "clean": "rm -rf dist"
+  "deploy": "gh-pages -d docs",
+  "clean": "rm -rf docs"
   },
   "dependencies": {
     "animated-backgrounds": "^1.0.11",

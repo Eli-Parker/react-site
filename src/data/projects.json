@@ -22,7 +22,7 @@
       "description": "Full Stack spreadsheet application with a Blazor frontend and C# backend. Implements a custom formula language with support for recursion, cell references, and built-in formulas.",
       "github": "",
       "chiclets": ["C#", "Blazor", "UI/UX Design", "Fullstack Development"],
-      "id": 2
+      "id": 7
     },
     {
       "name": "University Calendar Generator",
