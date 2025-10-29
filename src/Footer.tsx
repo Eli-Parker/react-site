@@ -23,8 +23,6 @@ function Footer() {
         >
           <IoLogoGithub />
         </a>
-        <div className="m-20" />
-
           
       </main>
     </>

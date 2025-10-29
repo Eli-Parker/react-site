@@ -11,7 +11,7 @@ export default function WhoAmI() {
 
     {/* Divider */}
   <hr className="section-divider" />
-  <p id="Introduction" className="body-text mb-8 max-w-xl">
+  <p id="Introduction" className="body-text max-w-xl">
       I’m a <strong>Frontend Developer</strong> who sees software as both logic and art, passionate about creating interfaces that feel as good as they look. My favorite work happens where design and development meet, building digital experiences that are <strong>intuitive</strong>, <strong>engaging</strong>, and <strong>built to perform at scale</strong>.
 
       <br /><br />Currently, I’m a <strong>Web Designer at Commercial Funding Partners</strong>, where I design, manage, and optimize lending websites through thoughtful UI/UX, SEO strategy, and lead-generation tools. I'm also on an <strong>App Development team</strong> maintaining/building a Flutter app with a <strong>100k+ user base</strong>.

@@ -25,10 +25,10 @@ export default function WelcomePane() {
 
 
   return (
-    <div className="flex h-[60vh] w-full items-center md:h-[80vh] md:justify-center" >
-      <div className="justify-start text-left">
+    <div className="flex h-[40vh] w-full items-center pl-1 md:h-[80vh] md:justify-start lg:pl-12" >
+      <div className="w-[300px] justify-start text-left">
         {/* Title and Type animation */}
-        <div className="flex w-[45%] min-w-52" >
+        <div className="flex w-full min-w-52" >
           {/* Left column: Text (80%) */}
           <div className="w-4/5 font-bold">
             <h2 className="text-4xl text-slate-50">
@@ -59,7 +59,7 @@ export default function WelcomePane() {
         <div className="spacer-sm" />
 
         {/* Quick About me section */}
-  <div className="body-text mb-8 w-1/2 min-w-72 max-w-xl">
+  <div className="body-text mb-8 w-full">
           <p>
             I’m a frontend developer and CS student who turns big ideas into beautiful, high-performing digital experiences.
           </p>

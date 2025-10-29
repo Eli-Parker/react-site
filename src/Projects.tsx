@@ -17,9 +17,10 @@ function Projects() {
         </h1>
 
         {/* Divider */}
-        <hr className="section-divider mb-8 mt-4" />
+        <hr className="section-divider" />
 
         {/* Map on all the projects in the projects.json */}
+        <div className="space-y-6">
           {projects.projects.map(
             (
               project: {
@@ -34,7 +35,7 @@ function Projects() {
             <div
               key={index}
               // eslint-disable-next-line tailwindcss/no-custom-classname, tailwindcss/migration-from-tailwind-2
-              className="interactive-card my-6 cursor-pointer"
+              className="interactive-card cursor-pointer py-1"
               onClick={() => {
               if (project.siteReference) {
                 window.open(project.siteReference, "_blank");
@@ -49,8 +50,6 @@ function Projects() {
               </svg>
             </span> }
             
-            <div className="py-0.5" />
-
             {/* Card title */}
             <h5 className="text-2xl font-bold tracking-tight dark:text-slate-50">
               {project.name}
@@ -100,10 +99,10 @@ function Projects() {
                 </a>}
               </div>
             </div>
-            <div className="py-0.5" />
             </div>
             ),
           )}
+        </div>
     </main>
   );
 }

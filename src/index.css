@@ -39,7 +39,6 @@
 	.section-divider { @apply my-4 w-1/4 text-left; }
 
 	/* Large and small spacers to replace bare divs */
-	.section-spacer { @apply m-20; }
 	.spacer-sm { @apply m-4; }
 
 	/* Base body copy paragraph styling */
