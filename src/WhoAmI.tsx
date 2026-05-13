@@ -12,13 +12,13 @@ export default function WhoAmI() {
     {/* Divider */}
   <hr className="section-divider" />
   <p id="Introduction" className="body-text max-w-xl">
-      I’m a <strong>Frontend Developer</strong> who sees software as both logic and art, passionate about creating interfaces that feel as good as they look. My favorite work happens where design and development meet, building digital experiences that are <strong>intuitive</strong>, <strong>engaging</strong>, and <strong>built to perform at scale</strong>.
+      I'm a Software Engineer focusing on frontend systems and design, and I'm passionate about software and people.
 
-      <br /><br />Currently, I’m a <strong>Web Designer at Commercial Funding Partners</strong>, where I design, manage, and optimize lending websites through thoughtful UI/UX, SEO strategy, and lead-generation tools. I'm also on an <strong>App Development team</strong> maintaining/building a Flutter app with a <strong>100k+ user base</strong>.
+      <br /><br /> Currently I work for Commercial Funding Partners, they're a lending firm based out of Utah and I take care of a some of the IT/Web work for them. I've met a lot of great people here! I'll be interning at a startup called Ambrook in just a couple weeks, which I'm so excited for! I could rave about those guys all day, but let's leave it at "I'm excited to work with them".
 
-      <br /><br />In the past, I’ve worked as an <strong>Analytics Engineer at Health Catalyst</strong>, where I led dashboard development and honed my data analysis skills, and as a <strong>Data Analyst at Cambi Solutions</strong>, collaborating with an app dev team to improve user experience. These roles gave me a strong foundation in adaptability, collaboration, and fast learning.
+      <br /><br />I've had the unique opportunity to be working in tech since my senior year of high school. I took a position at Health Catalyst doing BI/Data Science work for them, and they shaped so much of what you see before you today. I also worked for some friends at Cambi Solutions, where I parsed some data for an AI system.
 
-      <br /><br />If I'm not working, I'm flying down MTB trails on my Onewheel, enjoying a delicious pour-over, or doing something outdoorsy with my partner and our friends!
+      <br /><br />I'm motivated by my love for the people in my life, so that's what fills my free time. The best days are spent hiking or skiing or just talking with fun and interesting people, the best of which is my girlfriend. I'm also a huge nerd, and I usually have a book or project or some other task to chew on.  
     </p>
   </main>;
 }

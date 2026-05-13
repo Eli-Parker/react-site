@@ -2,7 +2,7 @@
     "experience": [
         {
         "company": "Health Catalyst",
-        "position": "Analytics Engineer",
+        "position": "Analytics Engineer Intern",
         "startDate": "2023-06-02",
         "endDate": "2024-01-02",
         "responsibilities": [
@@ -23,12 +23,13 @@
         },
         {
         "company": "Commercial Funding Partners",
-        "position": "Web Designer",
+        "position": "Web Solutions | Sales Enablement",
         "startDate": "2025-08-02",
         "endDate": "3005-01-02",
         "responsibilities": [
             "Develop, manage, and curate a host of equipment loaning websites",
-            "Generate Leads through Superior UI/UX, SEO, and social media engagement"
+            "Generate Leads through Superior UI/UX, SEO, and social media engagement",
+            "Develop internal tools to streamline the loaning process"
         ]
         }
     ]

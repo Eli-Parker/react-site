@@ -31,14 +31,13 @@ export default function AboutMe() {
           </h5>
           <hr className="mx-2" />
           <p className="font-normal text-gray-700 dark:text-slate-50">
-            I'm a passionate developer and software engineer, with a love for{" "}
-            <strong>learning</strong> and <strong>problem solving</strong>. I'm
-            a <strong>team player</strong>, and I'm always looking for new ways
-            to improve my skills and help others. I'm currently studying{" "}
-            <strong>Computer Science at the University of Utah</strong>, and I'm
-            excited to see where my career takes me. I'm always looking for new
-            opportunities to <strong>grow</strong> and <strong>learn</strong>,
-            and I'm excited to see what the future holds!
+            I'm a passionate developer and software engineer, with a love for
+            learning and problem solving. I'm a team player, and I'm always
+            looking for new ways to improve my skills and help others. I'm
+            currently studying Computer Science at the University of Utah, and
+            I'm excited to see where my career takes me. I'm always looking for
+            new opportunities to grow and learn, and I'm excited to see what
+            the future holds!
           </p>
         </Card>
       </div>
