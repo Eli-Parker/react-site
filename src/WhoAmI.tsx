@@ -14,7 +14,7 @@ export default function WhoAmI() {
   <p id="Introduction" className="body-text max-w-xl">
       I'm a Software Engineer focusing on frontend systems and design, and I'm passionate about software and people.
 
-      <br /><br /> Currently I work for Commercial Funding Partners, they're a lending firm based out of Utah and I take care of a some of the IT/Web work for them. I've met a lot of great people here! I'll be interning at a startup called Ambrook in just a couple weeks, which I'm so excited for! I could rave about those guys all day, but let's leave it at "I'm excited to work with them".
+      <br /><br /> Currently I work for Ambrook as a Software Engineer, they make accounting software for America's best and I'm proud to be a part of their team. The team is rock solid and over the course of a summer I've learned quite a lot about what it means to be a Software Engineer and gained some really valuable experience with full-stack systems.
 
       <br /><br />I've had the unique opportunity to be working in tech since my senior year of high school. I took a position at Health Catalyst doing BI/Data Science work for them, and they shaped so much of what you see before you today. I also worked for some friends at Cambi Solutions, where I parsed some data for an AI system.
 
